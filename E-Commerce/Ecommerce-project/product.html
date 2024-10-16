@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ecommerce project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+
+    <!-- font awesome start here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <!-- nav starts here-->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+        <ul class="nav_upper  flex-space-around" >
+
+          
+            <li class = "nav_list">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class = "nav_list">
+                <a href="resister.html" class="nav_link">Resister</a>
+            </li>
+
+            <li class = "nav_list">
+                <a href="Login.html" class="nav_link">Login</a>
+            </li>
+
+            <li class = "nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+           
+
+            <li class = "nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+
+           
+        </ul>
+
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="cart.html" class="nav-link ">
+                    <span>
+                        <i class="fa-solid
+                        fa-cart-shopping"> </i>
+                        cart 5 products - $1122.40
+                    </span>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+     <!-- nav ends here-->
+
+    <!-- main starts-->
+
+    <main class="flex-center">
+        <div class="main-content"></div>
+          <section class="product-details flex-center">
+            <div class="product_details-left ">
+                <img src="./image/product3.jpg" alt="product3">
+            </div>
+            <div class="product_details-right flex-center">
+                <h3 class="product_name">
+                    Model: MacBook Air 13" M1 Chip
+                </h3>
+                <p>
+                    <span class="dot green"> </span>
+                    <span class="dot black"> </span>
+                    <span class="dot red"> </span>
+                </p>
+                
+                <div class=" padding flex-center">
+                <h4 class="padding product_price">$225.99</h4>
+               <p class="padding product_rating"> Rating : 4.5/5</p>
+                <button class=" padding btn product_btn"> Add To Cart</button>
+            </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+     <!-- main ends-->
+
+     <section>
+        <P class="iphone-heading">
+            Versions: A2894 (International); A2651 (USA); A2893 (Canada, Japan); A2896 (China, Hong Kong); A2895 (Russia)
+
+
+        </P>
+        <div class="product_description ">
+           <table>
+                <thead>
+                    <tr>
+                        <th>Specs</th>
+                        <th>iPhone 14 Pro Max</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> size and weight</td>
+                        <td> 6.33*3.31 inch (160.7*77.6) </td>
+                    </tr>
+                    <tr>
+                        <td> Announced</td>
+                        <td> 2022, September 07</td>
+                    </tr>
+                    <tr>
+                        <td>Dimensions</td>
+                        <td> 160.7 x 77.6 x 7.9 mm (6.33 x 3.06 x 0.31 in)</td>
+                    </tr>
+                    <tr>
+                        <td> weight</td>
+                        <td> 240 g (8.47 oz)</td>
+                    </tr>
+                    <tr>
+                        <td> Build</td>
+                        <td> Glass front (Corning-made glass), glass back (Corning-made glass), stainless steel frame</td>
+                    </tr>
+                    <tr>
+                        <td >SIM </td>
+                        <td>Dual eSIM with multiple numbers - USA <br>
+                            240 g (8.47 oz) </td>
+                    </tr>
+                    
+                </tbody>
+           </table>
+
+
+         </div> 
+    </section>
+
+
+    <footer class="footer flex-space-around footer">
+        <div class="flex-space-around">
+        <label for="subscribe"> Subscribe to  Newsletter:</label>
+        <input
+         type="email" 
+         id="subscribe"
+         name="subscribe" 
+         class="footer__input" 
+         placeholder="Your Email Address "/>
+
+         <button class="btn btn-subscribe"> subscribe</button>   
+        </div> 
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
+
